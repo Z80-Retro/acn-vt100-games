@@ -8,7 +8,7 @@ and build a filesystem suitable for use on the Z80 Retro!
 
 By default, a `make burn` will overwrite the filesystem on drive E of your SD card.
 
-Here is a capture of me running this on my home system:
+Here is a capture of me running this on my home system (just type `make` and then `make burn`):
 
 ```
 winans@x570:~/projects/Z80-Retro/acn-vt100-games$ make 
