@@ -30,7 +30,7 @@ disk.img:
 	rm -f $@
 	mkfs.cpm -f $(DISKDEF) $@
 	cpmcp -f $(DISKDEF) $@ vt100-games/HDimage/u0/* 0:
-	cpmcp -f $(DISKDEF) $@ vt100-games/HDimage/u0/* 1:
+	cpmcp -f $(DISKDEF) $@ vt100-games/HDimage/u1/* 1:
 
 clean:
 	rm -f disk.img
